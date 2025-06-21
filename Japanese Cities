@@ -1,0 +1,2 @@
+--Japanese Cities : Query to filter Japanese City
+Select * from CITY where COUNTRYCODE ='JPN';
