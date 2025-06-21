@@ -1,0 +1,2 @@
+--Select By ID : SQL query to fetch details by ID
+select * from CITY where ID=1661;
