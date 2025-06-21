@@ -1,0 +1,9 @@
+--Weather Observation Station 5 : Query the two cities in STATION with the shortest and longest CITY names, as well as their respective lengths
+SELECT CITY, LENGTH(CITY) AS LENGTH
+FROM STATION
+ORDER BY LENGTH(CITY) ASC, CITY ASC
+FETCH FIRST 1 ROW ONLY;
+SELECT CITY, LENGTH(CITY) AS LENGTH
+FROM STATION
+ORDER BY LENGTH(CITY) DESC, CITY ASC
+FETCH FIRST 1 ROW ONLY;
